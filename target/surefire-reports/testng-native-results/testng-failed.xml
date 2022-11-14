@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.va.dsm.testcases.DsmE2ETest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="Test001_DSM_Email_Compose_No_Attachment"/>
+          <include name="Test006_DSM_Email_Archive_Functionalities"/>
+          <include name="beforeTest"/>
+          <include name="Test004_DSM_Email_Create_Folder"/>
+          <include name="Test002_DSM_Email_Compose_With_Attachment"/>
+          <include name="Test003_DSM_Email_Compose_With_CCD_Attachment"/>
+          <include name="Test005_DSM_Email_Drafts_Archive_Discard"/>
+        </methods>
+      </class> <!-- com.va.dsm.testcases.DsmE2ETest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
